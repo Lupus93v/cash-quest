@@ -4,13 +4,63 @@
 }
 
 body {
-   height: 95vh;
-   margin: 0; 
+    background-image: url("/public/pictures/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: auto;
 }
 
 .home-page {
-    background-color: #052540;
-    height: 93vh;
+    height: 94vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    height: 10em;
+    margin-top: 1em;
+    margin-right: 5em;
+}
+
+.nav-btn {
+    color: #232E62;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 0.4em 0.6em;
+    box-shadow: 1px 1px 9px 9px gray;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    padding: 0.5em 0.7em;
+}
+
+.play-btn {
+    color: whitesmoke;
+    background-color: #F74A43;
+    padding: 0.7em 1.1em;
+    font-size: 2.2rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 9px 9px gray;
+    margin-top: 7em;
+    margin-left: 0.8em;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    color:#232E62;
+    padding: 0.9em 1.3em;
+}
+
+.play-btn:active {
+    background-color: #5CC3B1;
+    padding: 0.7em 1em;
 }
 
 .about-page {
@@ -19,10 +69,6 @@ body {
 
 .contact-page{
     background-color: #F74A43;
-}
-
-.header{
-    background-color: #85BB65;
 }
 
 .footer{
