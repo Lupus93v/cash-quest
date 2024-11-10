@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+   height: 100%;
+   margin: 0; 
+}
+
+.home-page {
+    background-color: #052540;
+}
+
+.about-page {
+    background-color: #232E62;
+}
+
+.contact-page{
+    background-color: #F74A43;
+}
