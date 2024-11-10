@@ -4,12 +4,13 @@
 }
 
 body {
-   height: 100%;
+   height: 95vh;
    margin: 0; 
 }
 
 .home-page {
     background-color: #052540;
+    height: 93vh;
 }
 
 .about-page {
@@ -18,4 +19,12 @@ body {
 
 .contact-page{
     background-color: #F74A43;
+}
+
+.header{
+    background-color: #85BB65;
+}
+
+.footer{
+    background-color: #5CC3B1;
 }
