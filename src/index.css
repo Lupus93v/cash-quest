@@ -11,8 +11,30 @@ body {
     height: auto;
 }
 
+.header {
+    display: flex;
+}
+
 .home-page {
-    height: 94vh;
+    height: 120vh;
+}
+
+.logo-txt {
+    width: 20em;
+    margin-left: 3em;
+}
+
+.logo-txt:nth-child(1){
+    filter: drop-shadow(13px 13px 8px black);
+}
+
+.logo-txt:nth-child(1):hover {
+    filter: drop-shadow(13px 13px 8px gray);
+    cursor: pointer;
+}
+
+.logo-txt img {
+    width: 100%;
 }
 
 .navigation {
@@ -20,7 +42,6 @@ body {
     justify-content: space-between;
     width: 30em;
     height: 10em;
-    margin-top: 1em;
     margin-right: 5em;
 }
 
@@ -48,7 +69,7 @@ body {
     border: none;
     border-radius: 7px;
     box-shadow: 1px 1px 9px 9px gray;
-    margin-top: 7em;
+    margin-top: 9em;
     margin-left: 0.8em;
     cursor: pointer;
 }
@@ -64,13 +85,16 @@ body {
 }
 
 .about-page {
-    background-color: #232E62;
+    height: 120vh;
 }
 
 .contact-page{
-    background-color: #F74A43;
+    height: 120vh;
 }
 
 .footer{
-    background-color: #5CC3B1;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2em;
 }
