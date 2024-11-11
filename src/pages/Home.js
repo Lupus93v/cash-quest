@@ -6,7 +6,7 @@ export default function Home() {
         <div className="home-page">
             <div className="header">
                 <div className="logo-txt">
-                    <img src="./pictures/logo-txt.png" />
+                    <img src="./pictures/logo-txt.png" alt="text logo"/>
                 </div>
                 <div className="navigation">
                     <NavLink className="nav-btn" to="/about">About</NavLink>

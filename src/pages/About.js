@@ -6,7 +6,7 @@ export default function About() {
         <div className="about-page">
             <div className="header">
                 <div className="logo-txt">
-                    <img src="./pictures/logo-txt.png" />
+                    <img src="./pictures/logo-txt.png" alt="text logo"/>
                 </div>
                 <div className="navigation">
                     <NavLink className="nav-btn" to="/">Home</NavLink>
