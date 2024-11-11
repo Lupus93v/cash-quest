@@ -93,6 +93,7 @@ body {
 }
 
 .footer{
+    display: flex;
     background-color: black;
     color: whitesmoke;
     text-align: center;
